@@ -93,7 +93,6 @@
         "Match",
         "Deps",
         "EJSON",
-        "Email",
-        "Accounts"
+        "Email"
     ]       // additional predefined global variables
 }
