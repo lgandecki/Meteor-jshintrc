@@ -75,7 +75,7 @@
     "worker"        : false,    // Web Workers
     "wsh"           : false,    // Windows Scripting Host
     "yui"           : false,    // Yahoo User Interface
-    "meteor"        : true,     // Meteor.js
+    "meteor"        : false,    // Meteor.js
 
     // Legacy
     "nomen"         : false,    // true: Prohibit dangling `_` in variables
@@ -84,5 +84,16 @@
     "white"         : false,    // true: Check against strict whitespace and indentation rules
 
     // Custom Globals
-    "predef"        : [ ]       // additional predefined global variables
+    "predef"        : [
+        "Meteor",
+        "Accounts",
+        "Session",
+        "Template",
+        "check",
+        "Match",
+        "Deps",
+        "EJSON",
+        "Email",
+        "Accounts"
+    ]       // additional predefined global variables
 }
