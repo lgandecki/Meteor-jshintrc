@@ -75,7 +75,7 @@
     "worker"        : false,    // Web Workers
     "wsh"           : false,    // Windows Scripting Host
     "yui"           : false,    // Yahoo User Interface
-    "meteor"        : false,    // Meteor.js
+    //"meteor"        : false,    // Meteor.js
 
     // Legacy
     "nomen"         : false,    // true: Prohibit dangling `_` in variables
