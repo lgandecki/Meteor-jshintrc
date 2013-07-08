@@ -1,6 +1,10 @@
 {
-    // JSHint Default Configuration File (as on JSHint website)
-    // Modified for describing Meteor.js convention
+    // JSHint Meteor Configuration File
+    // Match the Meteor Style Guide
+    //
+    // By @raix with contributions from @aldeed
+    // Source https://github.com/raix/Meteor-jshintrc
+    //
     // See http://jshint.com/docs/ for more details
 
     "maxerr"        : 50,       // {int} Maximum error before stopping
