@@ -97,6 +97,8 @@
         "Match",
         "Deps",
         "EJSON",
-        "Email"
+        "Email",
+        "Package",
+        "Tinytest"
     ]       // additional predefined global variables
 }
