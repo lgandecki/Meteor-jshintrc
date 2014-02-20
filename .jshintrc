@@ -102,6 +102,7 @@
       "HTTP": false,
       "Email": false,
       "Assets": false,
+      "Handlebars": false,
       // globals useful when creating Meteor packages
       "Package": false,
       "Npm": false,
