@@ -102,11 +102,16 @@
       "HTTP": false,
       "Email": false,
       "Assets": false,
-      "Handlebars": false,
+      "Handlebars": false,      // https://github.com/meteor/meteor/wiki/Handlebars
+      // Meteor internals
+      "MongoInternals": false,
       // globals useful when creating Meteor packages
       "Package": false,
       "Npm": false,
       // common Meteor packages
-      "Router": false
+      "Random": false,
+      "_": false,               // Underscore.js
+      "$": false,               // jQuery
+      "Router": false           // iron-router
     }
 }
