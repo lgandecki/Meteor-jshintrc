@@ -95,6 +95,7 @@
       "Session": false,
       "Accounts": false,
       "Template": false,
+      "UI": false,
       "Match": false,
       "check": false,
       "Deps": false,
