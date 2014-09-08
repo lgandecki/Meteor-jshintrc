@@ -92,18 +92,23 @@
     "globals"       : {
       "Meteor": false,
       "DDP": false,
+      "Mongo": false, //Meteor.Collection renamed to Mongo.Collection
       "Session": false,
       "Accounts": false,
       "Template": false,
+      "Blaze": false,  //UI is being renamed Blaze
       "UI": false,
       "Match": false,
       "check": false,
+      "Tracker": false, //Deps renamed to Tracker
       "Deps": false,
+      "ReactiveVar": false,
       "EJSON": false,
       "HTTP": false,
       "Email": false,
       "Assets": false,
       "Handlebars": false,      // https://github.com/meteor/meteor/wiki/Handlebars
+      "Package": false,
 
       // Meteor internals
       "DDPServer": false,
@@ -115,7 +120,6 @@
       "WebAppInternals": false,
 
       // globals useful when creating Meteor packages
-      "Package": false,
       "Npm": false,
       "Tinytest": false,
 
