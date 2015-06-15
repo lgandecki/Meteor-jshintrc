@@ -129,5 +129,9 @@
       "_": false,               // Underscore.js
       "$": false,               // jQuery
       "Router": false           // iron-router
+      
+      // Project-specific Globals - Meteor collections
+      "RtiForms": true,
+      "FormsNotifications": true
     }
 }
